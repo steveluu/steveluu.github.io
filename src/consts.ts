@@ -5,7 +5,7 @@ export const SITE: Site = {
   EMAIL: "steve@withpursuits.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
+  NUM_PROJECTS_ON_HOMEPAGE: 0,
 };
 
 export const HOME: Metadata = {
@@ -15,7 +15,7 @@ export const HOME: Metadata = {
 
 export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  DESCRIPTION: "A collection of ideas and thoughts.",
 };
 
 export const WORK: Metadata = {
@@ -25,7 +25,7 @@ export const WORK: Metadata = {
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "Things I've tinkered with",
 };
 
 export const SOCIALS: Socials = [
