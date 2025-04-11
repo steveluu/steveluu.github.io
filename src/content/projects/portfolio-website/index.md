@@ -1,22 +1,21 @@
 ---
-title: "Personal Portfolio"
-description: "My personal portfolio website built with Astro."
+title: "Ideas"
+description: "Find ideas and projects I'm working on here."
 date: "Apr 11 2025"
 ---
 
-This is my personal portfolio website built with Astro, showcasing my work and projects. The site features a clean, minimalist design with excellent performance and accessibility.
+Persistent ideas waiting to be executed. 
 
-## Features
+## Digital Ideas
 
-- Responsive design that works on all devices
-- Light and dark mode support
-- Fast loading times with 100/100 Lighthouse scores
-- Blog section for sharing thoughts and insights
-- Portfolio section to showcase my work and projects
+- Personalized learning
+- Capturing memories and milestones
+- Onboarding and offboarding with AI
+- Barefoot shoe directory 
 
-## Technologies Used
+## Non-technical Ideas
 
-- Astro
-- Tailwind CSS
-- TypeScript
-- Markdown/MDX for content
+- Rebranding a service business
+- Italian sub shop
+- Coffee shop serving fresh baked tiny donuts
+- Contrast therapy and co-working space
