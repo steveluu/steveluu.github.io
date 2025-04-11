@@ -1,73 +1,24 @@
 ---
-title: "Getting started"
-description: "Hit the ground running."
-date: "Mar 22 2024"
+title: "Getting Started"
+description: "It's never too late."
+date: "Apr 11 2025"
+draft: false
 ---
 
-The basic configuration of Nano is pretty simple.
+Welcome. 
 
-Edit `src/consts.ts`
+It's a different world out there. 
 
-Customize the base site
+I've built and led product teams, and created web and mobile apps used by many -- but I've never called myself technical. 
 
-```ts 
-// src/consts.ts
+With a template and Open AI, here we are. 
 
-export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
-  NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
-};
-```
+I ditched the fancy Webflow site. 
 
-| Field | Req | Description |
-| :---- | :-- | :-----------|
-| NAME | Yes | Displayed in header and footer. Used in SEO and RSS. |
-| EMAIL | Yes | Displayed in contact section. |
-| NUM_POSTS | Yes | Limit num of posts on home page. |
-| NUM_WORKS | Yes | Limit num of works on home page. |
-| NUM_PROJECTS | Yes | Limit num of projects on home page. |
+You can just do things. 
 
-Customize your page metadata
+It's never too late -- to learn, to build, to begin again.
 
-```ts 
-// src/consts.ts
+If you're curious, explore. If you're building something, reach out. 
 
-export const HOME: Metadata = {
-  TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
-};
-```
-
-| Field | Req | Description |
-| :---- | :-- | :-----------|
-| TITLE | Yes | Displayed in browser tab. Used in SEO and RSS. |
-| DESCRIPTION | Yes | Used in SEO and RSS. |
-
-Customize your social media
-
-```ts 
-// src/consts.ts
-
-export const SOCIALS: Socials = [
-  { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
-  { 
-    NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
-  },
-  { 
-    NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
-  }
-];
-```
-
-| Field | Req | Description |
-| :---- | :-- | :-----------|
-| NAME | Yes | Displayed in contact section as a link. |
-| HREF | Yes | External url to social media profile. |
+Let's see what we can make happen. 
