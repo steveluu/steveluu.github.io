@@ -14,18 +14,16 @@ const { title, description } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <Head title={`${title} | ${SITE.NAME}`} description={description} />
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KX5SY7JNF8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KX5SY7JNF8"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KX5SY7JNF8');
+  </script>
+</head>
 
-  gtag('config', 'G-KX5SY7JNF8');
-</script>
-  </head>
   <body>
     <Header />
     <main>
